@@ -59,11 +59,6 @@ if __name__ == "__main__":
     invoice_gen = InvoiceGenerator()
     assistant = VoiceAssistant()
 
-    # Uncomment the following lines to test voice input and output
-    # text_input = assistant.listen()
-    # assistant.speak(f"You said: {text_input}")
-
-    # Example code for combining voice input and invoice generation
     assistant.speak("Welcome to the invoice generator. Please state the item name.")
     item_name = assistant.listen()
 
